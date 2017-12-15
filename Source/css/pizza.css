@@ -3,3 +3,13 @@
 	background-image: url("../img/pizza1.jpg");
 	
 }
+
+.pizza-carousel {
+	position: relative;
+}
+
+.vert-center {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}

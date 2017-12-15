@@ -1,4 +1,4 @@
-/*ad favicon of hammer*/
+
 
 .navbar{
 	margin-bottom: 0%;
@@ -17,8 +17,14 @@
 	height:700px;
 }
 
-.header {
+.head {
 	margin:auto;
+}
+
+.menuItem{
 	display:flex;
-	flex-flow: wrap;
+	justify-content:center;
+	align-items:center;
+	flex-wrap:wrap;
+	width:300px;
 }

@@ -1,5 +1,18 @@
 /*ad favicon of hammer*/
+
+.navbar{
+	margin-bottom: 0%;
+}
+.navbar:hover{
+	background-color: #fff;
+	color: #EEA200;
+}
+
+
 .landing {
-	background-image: url("../img/pizza1.jpg");
-	
+	background-image: url("../img/pizza2.jpg");
+	background-size: cover;
+	margin-top:0px;
+	padding-top: 0px;
+	height:700px;
 }

@@ -16,3 +16,9 @@
 	padding-top: 0px;
 	height:700px;
 }
+
+.header {
+	margin:auto;
+	display:flex;
+	flex-flow: wrap;
+}

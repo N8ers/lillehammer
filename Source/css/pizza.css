@@ -1,5 +1,10 @@
 /*ad favicon of hammer*/
 
+body {
+	position: relative;
+	height: 1500px;
+}
+
 .navbar{
 	margin-bottom: 0%;
 }
@@ -19,6 +24,9 @@
 
 .pizza-carousel {
 	position: relative;
+	width: 70%;
+	margin: auto;
+	min-width: 300px;
 }
 
 .vert-center {

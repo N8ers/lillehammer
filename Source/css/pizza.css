@@ -18,7 +18,17 @@
 }
 
 .head {
-	margin:auto;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+.menuContainer{
+	
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-wrap:wrap;
 }
 
 .menuItem{
@@ -27,4 +37,8 @@
 	align-items:center;
 	flex-wrap:wrap;
 	width:300px;
+	height: 175px;
+	border:1px solid black;
+	margin:10px;
+	padding: 3px;
 }

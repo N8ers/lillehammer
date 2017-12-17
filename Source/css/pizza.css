@@ -1,4 +1,11 @@
-
+/*
+-end menu at 3 rows
+-left align text
+-insert Roboto Slab font
+-include pizza sizes/prices
+-make pizza disctiptions 
+-after you're happy with them remove border
+*/
 
 .navbar{
 	margin-bottom: 0%;
@@ -7,6 +14,7 @@
 	background-color: #fff;
 	color: #EEA200;
 }
+
 
 
 .landing {
@@ -26,21 +34,29 @@
 .menuContainer{
 	
 	display:flex;
+	max-width: 1200px;
 	justify-content:center;
 	align-items:center;
 	flex-wrap:wrap;
+	margin:auto;
+
 }
 
 .menuItem{
-	display:flex;
-	justify-content:center;
-	align-items:center;
-	flex-wrap:wrap;
+	
 	width:300px;
 	height: 175px;
 	border:1px solid black;
 	margin:10px;
 	padding: 3px;	
+}
+
+.menuItem h3{
+	
+	font-weight: bold;
+	margin: 1px 1px 1px 1px;
+	margin-right:70%;
+	padding-bottom: 3px;
 }
 
 .pizza-carousel {

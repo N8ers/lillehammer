@@ -54,6 +54,7 @@ body {
 	font-size: 2em;
 	font-style:bold;
 	padding-top: 15px;
+	padding-bottom:15px;
 }
 
 .menuContainer{
@@ -69,8 +70,8 @@ body {
 .menuItem{
 	width:300px;
 	height: 175px;
-	margin:10px;
-	padding: 3px;	
+	margin:5px 10px 0px 10px;
+	padding: 3px 0px 0px 0px;	
 }
 
 .menuItem h3{

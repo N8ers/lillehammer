@@ -15,6 +15,9 @@
 	color: #EEA200;
 }
 
+body {
+	font-family: 'Roboto Slab', serif;
+}
 
 
 .landing {
@@ -23,6 +26,29 @@
 	margin-top:0px;
 	padding-top: 0px;
 	height:700px;
+
+	display:flex;
+}
+
+.landingText{
+
+	padding:60px 20px;
+	margin:auto;
+	color:white;
+	border: 10px solid white;
+	background:rgba(0,0,0,0.5);
+	border-radius: 15%;
+	text-shadow: 2px 2px black;
+}
+
+.landingText h1{
+	font-size: 60px;
+	padding-bottom:0px;
+	margin-bottom:0px;
+}
+.landingText h3{
+	padding-top:0px;
+	margin-top:0px;
 }
 
 .head {
@@ -46,7 +72,6 @@
 	
 	width:300px;
 	height: 175px;
-	border:1px solid black;
 	margin:10px;
 	padding: 3px;	
 }
@@ -57,6 +82,10 @@
 	margin: 1px 1px 1px 1px;
 	margin-right:70%;
 	padding-bottom: 3px;
+}
+
+.italics{
+	font-style: italic;
 }
 
 .pizza-carousel {

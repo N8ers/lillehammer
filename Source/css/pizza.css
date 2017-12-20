@@ -1,10 +1,3 @@
-
-
-body {
-	position: relative;
-	height: 1500px;
-}
-
 .navbar{
 	margin-bottom: 0%;
 }
@@ -13,40 +6,92 @@ body {
 	color: #EEA200;
 }
 
+body {
+	font-family: 'Roboto Slab', serif;
+}
 
 .landing {
 	background-image: url("../img/pizza2.jpg");
 	background-size: cover;
 	margin-top:0px;
+	margin-bottom:3px;
 	padding-top: 0px;
 	height:700px;
+	display:flex;
+}
+
+.landingText{
+	padding:60px 20px;
+	margin:auto;
+	color:white;
+	border: 10px solid white;
+	background:rgba(0,0,0,0.5);
+	border-radius: 15%;
+	text-shadow: 2px 2px black;
+}
+
+.landingText h1{
+	font-size: 60px;
+	padding-bottom:0px;
+	margin-bottom:0px;
+}
+.landingText h3{
+	padding-top:0px;
+	margin-top:0px;
+}
+
+.socials {
+	font-size:1.5em;
+	margin:10px;
+	color:white;
 }
 
 .head {
 	display:flex;
 	justify-content:center;
 	align-items:center;
+	font-size: 2em;
+	font-style:bold;
+	padding-top: 15px;
+	padding-bottom:15px;
 }
 
 .menuContainer{
 	
 	display:flex;
+	max-width: 1200px;
 	justify-content:center;
 	align-items:center;
 	flex-wrap:wrap;
+	margin:auto;
 }
 
 .menuItem{
-	display:flex;
-	justify-content:center;
-	align-items:center;
-	flex-wrap:wrap;
 	width:300px;
 	height: 175px;
-	border:1px solid black;
-	margin:10px;
-	padding: 3px;
-	height:700px;	
+	margin:5px 10px 0px 10px;
+	padding: 3px 0px 0px 0px;	
+}
+
+.menuItem h3{
+	
+	font-weight: bold;
+	margin: 1px 1px 1px 1px;
+	margin-right:70%;
+	padding-bottom: 3px;
+}
+
+.italics{
+	font-style: italic;
+}
+
+.bold{
+	font-style: bold;
+}
+
+hr{
+	max-width: 900px;
+	border-top:3px double;
 }
 
 .pizza-carousel {
@@ -60,5 +105,48 @@ body {
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
+}
 
+.gray{
+	background:#D3D3D3;
+}
+
+.locationContainer{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	align-items:center;
+}
+
+.location{
+margin:20px;
+}
+
+.location img{
+width:300px;
+height:300px;
+overflow: hidden;
+margin:auto;
+border:1px solid black;
+
+}
+
+.locationText{
+	margin-top: 3px;
+	border: 1px solid black;
+	border-radius: 5px;
+	background: white;
+	width: 300px;
+	height: auto;
+	text-align:center;
+}
+
+.locationText h2{
+	font-size: 20px;
+}
+
+.locationText h3{
+	font-size: 15px;
+	padding-top: 0px;
+	padding-bottom: 3px;
 }

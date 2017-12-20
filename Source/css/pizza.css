@@ -109,6 +109,9 @@ hr{
 
 .pizza-carousel {
 	position: relative;
+	max-width: 900px;
+	min-width: 375px;
+	margin: auto;
 }
 
 .vert-center {

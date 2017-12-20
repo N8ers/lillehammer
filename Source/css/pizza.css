@@ -1,3 +1,14 @@
+/* to do
+icons need to be changed and linked
+locations need to be cooler
+insert more hammers
+nav bar colors cooler
+remove double line and stick with grey background change
+
+*/
+
+
+
 .navbar{
 	margin-bottom: 0%;
 }
@@ -96,9 +107,6 @@ hr{
 
 .pizza-carousel {
 	position: relative;
-	width: 70%;
-	margin: auto;
-	min-width: 300px;
 }
 
 .vert-center {

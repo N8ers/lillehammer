@@ -21,6 +21,16 @@ remove double line and stick with grey background change
 	color: #EEA200;
 }
 
+.inline {
+	display:inline;
+}
+
+.hammer{
+	height: 15px;
+	width: 15px;
+	filter: invert(100%);
+}
+
 body {
 	font-family: 'Roboto Slab', serif;
 }
@@ -134,20 +144,21 @@ hr{
 
 .location{
 margin:20px;
+width:300px;
+overflow: hidden;
 }
 
 .location img{
-width:300px;
+width:auto;
+transform: translateX(-25%);
 height:300px;
-overflow: hidden;
 margin:auto;
 border:1px solid black;
-
 }
 
 .locationText{
 	margin-top: 3px;
-	border: 1px solid black;
+	padding: 8px, 0px, 8px, 0px;
 	border-radius: 5px;
 	background: white;
 	width: 300px;

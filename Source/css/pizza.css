@@ -2,6 +2,7 @@
 change navbar color
 make navbar appear
 
+
 icons need to be changed and linked
 locations need to be cooler
 insert more hammers
@@ -150,8 +151,12 @@ border:1px solid black;
 	border-radius: 5px;
 	background: white;
 	width: 300px;
-	height: auto;
 	text-align:center;
+}
+
+.tight{
+	padding:0px;
+	margin:0px;
 }
 
 .locationText h2{
@@ -160,6 +165,5 @@ border:1px solid black;
 
 .locationText h3{
 	font-size: 15px;
-	padding-top: 0px;
-	padding-bottom: 3px;
+	
 }

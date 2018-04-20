@@ -5,7 +5,7 @@ This project uses HTML, CSS, Bootstrap, and Javascript.
 To visit the site click here: 
 <a href="https://sheryak-pizza.surge.sh/" target="_blank">Lillehammer!</a>
 
-To view my portfolio follow the links below;
+To view my portfolio click here;
 <a href="http://sheryak-portfolio.surge.sh/" target="_blank">sheryak-portfolio.surge.sh</a>
 -or-
 <a href="https://n8ers.github.io/portfolio/" target="_blank">n8ers.github.io/portfolio</a>
